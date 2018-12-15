@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>gnu.c</itemPath>
+    <itemPath>gnu.h</itemPath>
+    <itemPath>main.c</itemPath>
+    <itemPath>my.c</itemPath>
+    <itemPath>my.h</itemPath>
+    <itemPath>so.c</itemPath>
+    <itemPath>so.h</itemPath>
+    <itemPath>test.c</itemPath>
+    <itemPath>test.h</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <standard>10</standard>
+        </cTool>
+      </compileType>
+      <item path="gnu.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="gnu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="my.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="my.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="so.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="so.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="test.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="test.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <standard>10</standard>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="gnu.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="gnu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="my.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="my.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="so.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="so.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="test.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="test.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
